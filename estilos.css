@@ -1,0 +1,246 @@
+@font-face {
+    font-family:'boogybrut';
+    src: url('BoogyBrut.ttf') format('truetype'),
+    url('BoogyBrut.otf') format('.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neuehaaslight';
+    src: url('NeueHaasDisplay-Light.ttf') format('truetype'),
+    url('NeueHaasDisplay-Light.otf') format('.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neuehaasroman';
+    src: url('NeueHaasDisplay-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+@font-face {
+    font-family: 'neuehaaslightitalic';
+    src: url('../web/fonts/NeueHaasDisplay-LightItalic.ttf') format('truetype'),
+    url('../web/fonts/NeueHaasDisplay-LightItalic.otf') format('.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+
+html {
+    scroll-behavior: smooth;
+} 
+
+body#index {
+    background-color: black;
+    margin: 0px;
+}
+
+h1 {
+    width: 80%;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 160px;
+    letter-spacing: 5px;
+    font-family: 'boogybrut';
+    font-weight: normal;
+    min-width: 50%;
+    font-size: 140px;
+    margin: auto;
+    color: white;
+    margin-top: 8%;
+    margin-bottom: 1%;
+}
+
+h2 {
+    width: 80%;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'neuehaaslight';
+    font-weight: normal;
+    min-width: 50%;
+    font-size: 13px;
+    margin: auto;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 4%;
+}
+
+
+/*efeito highlight*/
+body { background-color:black; }
+.highlight { 
+    background-color:white;
+    background: linear-gradient(to top, white 85%, transparent 50%);
+ }
+h1 { background-color: black; }
+
+
+/*links*/
+a {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*efeito highlight hover (tem de estar depois dos links)*/
+.highlight:hover {
+    background-color: red;
+    background: linear-gradient(to top, red 85%, transparent 50%);
+
+}
+
+/*seta*/
+.arrow {
+    width: 2%;
+    height: auto;
+    display: flex;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-bottom: 50px;
+}
+
+#button {
+    height: 8px;
+} 
+
+
+
+
+/*metahaven1*/
+body#metahaven1 {
+    background-color: white;
+    margin: 0px;
+}
+
+h3 {
+    width: 80%;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 160px;
+    letter-spacing: 5px;
+    font-family: 'boogybrut';
+    font-weight: normal;
+    min-width: 50%;
+    font-size: 140px;
+    margin: auto;
+    color: black;
+    margin-top: 8%;
+    margin-bottom: 1%;
+}
+
+h4 {
+    width: 80%;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'neuehaasroman';
+    font-weight: normal;
+    min-width: 50%;
+    font-size: 13px;
+    margin: auto;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 4%;
+}
+
+/*efeito highlight1*/
+body#metahaven1 { background-color:white; }
+.highlight1 { 
+    background-color:black;
+    background: linear-gradient(to top, black 100%, transparent 50%);
+ }
+h3 { background-color: white; }
+
+/*links metahaven1*/
+a#metahaven1 {
+    color: white;
+}
+
+a:link#metahaven1 {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited#metahaven1 {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover#metahaven1 {
+    text-decoration: none;
+    color: black;
+}
+
+a:active#metahaven1 {
+    text-decoration: none;
+    color: white;
+}
+
+/*efeito highlight1 hover (tem de estar depois dos links)*/
+.highlight1:hover {
+    background-color: red;
+    background: linear-gradient(to top, red 100%, transparent 50%);
+
+}
+
+
+
+
+/*conclusion*/
+body#conclusion {
+    background-color: red;
+    margin: 0px;
+}
+
+h5 {
+    width: 80%;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 160px;
+    letter-spacing: 5px;
+    font-family: 'boogybrut';
+    font-weight: normal;
+    min-width: 50%;
+    font-size: 140px;
+    margin: auto;
+    color: black;
+    margin-top: 8%;
+    margin-bottom: 1%;
+}
+
+h6 {
+    width: 80%;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'neuehaasroman';
+    font-weight: normal;
+    min-width: 50%;
+    font-size: 13px;
+    margin: auto;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 4%;
+}
