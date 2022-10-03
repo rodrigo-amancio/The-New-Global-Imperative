@@ -172,7 +172,6 @@ body#metahaven1 { background-color:white; }
     background-color:black;
     background: linear-gradient(to top, black 100%, transparent 50%);
  }
-h3 { background-color: white; }
 
 /*links metahaven1*/
 a#metahaven1 {
@@ -206,6 +205,20 @@ a:active#metahaven1 {
 
 }
 
+
+
+/*mida1*/
+body#midal {
+    background-color: rgb(194, 191, 191);
+    margin: 0px;
+}
+
+
+/*dunne*/
+body#dunne {
+    background-color: black;
+    margin: 0px;
+}
 
 
 
