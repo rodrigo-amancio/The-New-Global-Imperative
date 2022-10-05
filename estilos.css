@@ -261,8 +261,8 @@ h6 {
 
 @media only screen and (max-width: 600px) {
     h1 {
-        font-size: 30px;
-        line-height: 35px;
+        font-size: 40px;
+        line-height: 45px;
     }
 
     h2 {
@@ -272,8 +272,8 @@ h6 {
 
 
     h3 {
-        font-size: 30px;
-        line-height: 35px;
+        font-size: 40px;
+        line-height: 45px;
     }
 
     h4 {
@@ -282,8 +282,8 @@ h6 {
     }
 
     h5 {
-        font-size: 30px;
-        line-height: 35px;
+        font-size: 40px;
+        line-height: 45px;
     }
 
     h6 {
